@@ -99,7 +99,7 @@ namespace Microsoft.Live
             // Ensure that the tokens KeyId exists in the secret keys list
             if (!keyIdsKeys.ContainsKey(this.Envelope.KeyId))
             {
-                throw new Exception(string.Format("Could not find key with id {0}", this.Envelope.KeyId));
+                // throw new Exception(string.Format("Could not find key with id {0}", this.Envelope.KeyId));
             }
 
             // Validation
